@@ -3,7 +3,8 @@ library xendit_integrator;
 import 'package:flutter/material.dart';
 
 class RadjaCustomButton extends StatelessWidget {
-  RadjaCustomButton({Key? key, required this.onPressed, required this.child})
+  const RadjaCustomButton(
+      {Key? key, required this.onPressed, required this.child})
       : super(key: key);
   final VoidCallback onPressed;
   final Widget child;
